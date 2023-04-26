@@ -1,3 +1,6 @@
+/** Authored by: Phefumlela Madyo & Paballo Miya
+ */
+
 #include "main.h"
 
 /**
@@ -18,7 +21,7 @@ int rot13(char *s)
 		{
 			if (s[i] == normal[j])
 			{
-				_putchar(rot13[j]);
+				_sputchar(rot13[j]);
 				break;
 			}
 		}
