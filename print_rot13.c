@@ -21,7 +21,7 @@ int rot13(char *s)
 		{
 			if (s[i] == normal[j])
 			{
-				_sputchar(rot13[j]);
+				_putchar(rot13[j]);
 				break;
 			}
 		}
